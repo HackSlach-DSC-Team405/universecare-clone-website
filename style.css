@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin:15px;
+  }
+  .main-text{
+      /* The Future of Health Care is Home Care */
+width: 608px;
+height: 118px;
+left: 71px;
+top: 96px;
+font-size: 40px;
+font-weight: bolder;
+  }
+.yellowborder{
+    background-color: yellow;
+    padding: 2px;
+    text-align: center;
+}
+/* for svg of location symbol */
+.btn{
+    /* button/orange */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 542px;
+height: 66px;
+left: 71px;
+top: 309px;
+
+
+
+/* button/orange */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 23px 31px;
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0047AB;
+border-radius: 2px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+
+
+/* REQUEST AN APPOINTMENT */
+
+position: static;
+width: 280px;
+height: 20px;
+left: calc(50% - 280px/2);
+top: calc(50% - 20px/2);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+letter-spacing: 0.12em;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+}
+
