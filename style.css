@@ -11,6 +11,9 @@ ul {
     display: inline;
     margin:15px;
   }
+ li a{
+    text-decoration: none;
+  }
   .main-text{
       /* The Future of Health Care is Home Care */
 width: 608px;
