@@ -1,17 +1,14 @@
-body{
-    background-color: white;
-}
-ul {
+ul .header-ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  
-  li {
+
+  .header-li {
     display: inline;
     margin:15px;
   }
- li a{
+.header-li a{
     text-decoration: none;
       color: black;
   }
@@ -30,7 +27,7 @@ font-weight: bolder;
     text-align: center;
 }
 /* for svg of location symbol */
-.btn{
+.btn-head{
     /* button/orange */
 
 /* Auto Layout */
@@ -98,3 +95,158 @@ margin: 0px 10px;
 
 }
 
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-h3{
+  color: #FF8400;
+  font-size: 1rem;
+  line-height: 2;
+}
+.footer-ul {
+  list-style: none; /* Remove default bullets */
+}
+.footer-li{
+  padding: 0.2rem 0;
+}
+ul .footer-li::before {
+  content: "\25CB";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  background: -webkit-linear-gradient(#FFC03D, #FF8B08);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Change the color */
+  font-weight: 900; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.any-btn{
+  font-size: 0.8rem;
+  border-radius: 0;
+  line-height: 2;
+  padding: 1.5% 5%;
+  margin: 3% 0;
+}
+/* Images Section */
+.imageSectionDiv{
+  padding: 0;
+}
+
+.lg-img{
+  width: 100%;
+}
+
+.sm-img, .md-img{
+  display: none;
+}
+
+/* Appointment Section */
+.Appointment{
+background-color: #395FA9;
+margin: 0;
+color: white;
+text-align: center;
+padding: 3% 8% 0;
+}
+.Appointment-text{
+  text-align: left;
+  padding-top: 2%;
+}
+.Appointment-button{
+  color: #0047AB;
+  font-weight: bold;
+}
+
+/* Footer Section */
+
+.footer{
+  padding: 5% 10% 0;
+  margin-right: 0;
+}
+.headquaters{
+  padding-right: 11%;
+  line-height: 2;
+}
+.signup{
+  color: #5F6377;
+  font-size: 0.9rem;
+}
+.email{
+  color: #5F6377;
+  border-color: #CFD0D7;
+  border-style: solid;
+  border-width: thin;
+  padding: 3% 35% 3% 3%;
+  margin: 3% 0;
+  font-size: 0.8rem;
+}
+.submit{
+  background-color: #0047AB;
+  color: white;
+  border-style: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 2% 9%;
+  line-height: 2;
+  margin-bottom: 12%;
+}
+.logo{
+  padding: 2%;
+  padding-bottom: 4%;
+}
+.follow{
+  display: inline;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 5%;
+}
+.social-icon{
+  color: #0047AB;
+  font-size: 1.5rem;
+  padding: 3% 1.5% 0;
+}
+.Copyright{
+  padding: 1% 0 1% 10%;
+  color: #2B2D42;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.uc-text{
+  color: #FF8B08;
+}
+.foot-hr{
+  background-color: #FF8B08;
+  width: 20%;
+  border-style: none;
+  margin: 0.5rem 0 1.5rem;
+}
+@media only screen and (max-width:610px) {
+.sm-img{
+  display: inline-block;
+}
+}
+
+@media only screen and (min-width:610px) and (max-width:768px) {
+  .sm-img, .md-img{
+    display: inline-block;
+  }
+}
+@media only screen and (max-width:768px){
+  .Appointment-text{
+    text-align: center;
+  }
+  .imageSectionDiv{
+    padding: 0 1%;
+    text-align: center;
+  }
+  .lg-img{
+    display: none;
+}
+.uc-logo{
+  display: none;
+}
+.sign-up{
+  text-align: center;
+}
+}
