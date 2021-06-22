@@ -249,4 +249,70 @@ padding: 3% 8% 0;
 .sign-up{
   text-align: center;
 }
+.carousel-hide{
+  display: none!important;
 }
+.carousel-inner{
+  text-align: center;
+}
+}
+/* Review Section */
+.review{
+  background-image: linear-gradient(to bottom right, #FFF1E1, #FFFBF7);
+  padding: 5% 10%;
+  padding-right: 0;
+  margin-right: 0;
+}
+.crsl1-all{
+  background-color: white;
+  width: 16.7rem;
+  height: 13rem;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 1.5%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+  padding: 2% 4% 5% 2%;
+  color: #2B2D42;
+}
+.carousel-button{
+  position: relative;
+  bottom: 0;
+  color: #0047AB;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  padding-top: 2%;
+}
+.rating-5{
+  font-weight: 600;
+}
+.rating{
+  padding-left: 5%;
+  padding-top: 2.5%;
+  font-size: 1rem;
+  color: #2B2D42;
+}
+.rating-google{
+  font-weight: bold;
+}
+.review-name{
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.review-star{
+  width: 9%;
+}
+.review-text{
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding-top: 4%;
+}
+#carouselExampleControls .carousel-control-next{
+  width: 200px;
+}
+.see-all-review{
+  margin: 1%;
+}
+.carousel-button:hover{
+  color: #0047AB;
+}
+
