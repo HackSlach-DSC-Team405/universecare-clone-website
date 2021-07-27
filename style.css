@@ -18,19 +18,33 @@ width: 608px;
 height: 118px;
 left: 71px;
 top: 96px;
-font-size: 40px;
+font-size: 50px;
 font-weight: bolder;
+  }
+/* Setting main image in upper section */
+  .old-img img{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 600px;
+    height: 400px;
+    weight: 1000px;
   }
 .yellowborder{
     background-color: yellow;
     padding: 2px;
+    margin-top: 200px;
     text-align: center;
+}
+.local-text{
+     margin: 20px;
+     font: size 30px;
+     font-weight: bold;
 }
 /* for svg of location symbol */
 .btn-head{
     /* button/orange */
 
-/* Auto Layout */
+    /* Auto Layout */
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -40,9 +54,7 @@ position: absolute;
 width: 542px;
 height: 66px;
 left: 71px;
-top: 309px;
-
-
+top: 400px;
 
 /* button/orange */
 
@@ -96,6 +108,9 @@ margin: 0px 10px;
 }
 
 
+#btn1{
+  top: 200px;
+}
 
 body{
   font-family: 'Montserrat', sans-serif;
